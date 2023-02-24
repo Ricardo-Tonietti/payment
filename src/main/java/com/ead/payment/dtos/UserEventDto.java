@@ -18,6 +18,7 @@ public class UserEventDto {
     private String userType;
     private String phoneNumber;
     private String cpf;
+    private String imageUrl;
     private String actionType;
 
     public UserModel convertToUserModel(){
